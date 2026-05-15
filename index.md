@@ -1,3 +1,10 @@
+# Mon blog IT
+
+## 📌 Navigation
+- [Accueil](index.md)
+- [CV](cv.md)
+- [À propos](about.md)
+
 # 👋 Bonjour
 
 Bienvenue sur mon blog technique.
