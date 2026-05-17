@@ -26,28 +26,30 @@ body {
 }
 
 /* ===== Navigation ===== */
-
 .site-nav {
-  background: transparent;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .site-nav .page-link {
-  color: white !important;
+  color: #111827 !important;
+  font-weight: 600;
 }
-
-/* ===== Mobile menu button ===== */
 
 .site-nav .menu-icon > svg {
   fill: white;
 }
 
-/* ===== Mobile dropdown ===== */
-
 .site-nav input:checked ~ .trigger {
+  background-color: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.site-nav input:checked ~ .trigger .page-link {
+  color: #111827 !important;
   display: block;
-  background-color: #0078d4;
-  padding: 10px;
-  border-radius: 12px;
+  padding: 8px 0;
 }
 
 /* ===== Titles ===== */
