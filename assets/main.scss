@@ -3,40 +3,56 @@
 
 @import "minima";
 
-.site-header {
-  background: #0078d4;
-}
-
-.site-title,
-.site-title:visited,
-.site-nav .page-link {
-  color: white !important;
-}
+/* ===== Global ===== */
 
 body {
   background-color: #f3f6fb;
 }
 
-h1, h2 {
-  color: #0078d4;
+/* ===== Header ===== */
+
+.site-header {
+  background: linear-gradient(90deg, #0078d4, #2563eb);
+  border-top: none;
+  border-bottom: none;
 }
+
+/* ===== Title ===== */
+
+.site-title,
+.site-title:visited {
+  color: white !important;
+  font-weight: 600;
+}
+
+/* ===== Navigation ===== */
 
 .site-nav {
-  background-color: #0078d4;
+  background: transparent;
 }
 
-.site-nav label[for="nav-trigger"] {
-  color: white;
+.site-nav .page-link {
+  color: white !important;
 }
+
+/* ===== Mobile menu button ===== */
 
 .site-nav .menu-icon > svg {
   fill: white;
 }
 
+/* ===== Mobile dropdown ===== */
+
 .site-nav input:checked ~ .trigger {
+  display: block;
   background-color: #0078d4;
+  padding: 10px;
+  border-radius: 12px;
 }
 
-.site-nav .page-link {
-  color: white !important;
+/* ===== Titles ===== */
+
+h1,
+h2 {
+  color: #0078d4;
 }
