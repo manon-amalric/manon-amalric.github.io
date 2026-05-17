@@ -5,3 +5,6 @@ theme: minima
 header_pages:
   - cv.md
   - about.md
+
+sass:
+  style: compressed
