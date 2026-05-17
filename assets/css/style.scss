@@ -3,12 +3,8 @@
 
 @import "minima";
 
-body {
-  background-color: #f3f6fb;
-}
-
 .site-header {
-  background: linear-gradient(90deg, #0078d4, #2563eb);
+  background-color: #0078d4;
 }
 
 .site-title,
@@ -17,12 +13,10 @@ body {
   color: white !important;
 }
 
-h1, h2 {
-  color: #0078d4;
+body {
+  background-color: #f3f6fb;
 }
 
-.page-content .wrapper {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
+h1, h2 {
+  color: #0078d4;
 }
