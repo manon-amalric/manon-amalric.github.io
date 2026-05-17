@@ -6,5 +6,5 @@ header_pages:
   - cv.md
   - about.md
 
-sass:
-  style: compressed
+minima:
+  skin: auto
