@@ -6,5 +6,5 @@ header_pages:
   - cv.md
   - about.md
 
-minima:
-  skin: auto
+sass:
+  sass_dir: _sass
