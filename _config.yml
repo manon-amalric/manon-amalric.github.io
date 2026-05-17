@@ -3,6 +3,5 @@ description: Documentation technique et retours d’expérience
 theme: minima
 
 header_pages:
-  - index.md
   - cv.md
   - about.md
