@@ -20,3 +20,23 @@ body {
 h1, h2 {
   color: #0078d4;
 }
+
+.site-nav {
+  background-color: #0078d4;
+}
+
+.site-nav label[for="nav-trigger"] {
+  color: white;
+}
+
+.site-nav .menu-icon > svg {
+  fill: white;
+}
+
+.site-nav input:checked ~ .trigger {
+  background-color: #0078d4;
+}
+
+.site-nav .page-link {
+  color: white !important;
+}
