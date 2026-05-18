@@ -27,29 +27,23 @@ body {
 
 /* ===== Navigation ===== */
 .site-nav {
-  background-color: #0078d4;
-  border-radius: 10px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.site-nav input:checked ~ .trigger {
+  background: #0078d4 !important;
+  border: none !important;
+  padding: 12px;
+  border-radius: 12px;
 }
 
 .site-nav .page-link {
   color: white !important;
-  font-weight: 600;
 }
 
 .site-nav .menu-icon > svg {
-  fill: white;
-}
-
-.site-nav input:checked ~ .trigger {
-  background-color: #0078d4;
-  padding: 12px;
-  border-radius: 10px;
-}
-
-.site-nav input:checked ~ .trigger .page-link {
-  color: white !important;
-  display: block;
-  padding: 8px 0;
+  fill: white !important;
 }
 
 /* ===== Titles ===== */
