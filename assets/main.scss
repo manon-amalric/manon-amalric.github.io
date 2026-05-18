@@ -27,23 +27,26 @@ body {
 
 /* ===== Navigation ===== */
 .site-nav {
-  background: transparent !important;
+  background-color: #0078d4 !important;
   border: none !important;
-}
-
-.site-nav input:checked ~ .trigger {
-  background: #0078d4 !important;
-  border: none !important;
-  padding: 12px;
   border-radius: 12px;
 }
 
 .site-nav .page-link {
   color: white !important;
+  font-weight: 600;
 }
 
 .site-nav .menu-icon > svg {
   fill: white !important;
+}
+
+.site-nav .trigger {
+  background-color: #0078d4 !important;
+}
+
+.site-nav input:checked ~ .trigger {
+  background-color: #0078d4 !important;
 }
 
 /* ===== Titles ===== */
