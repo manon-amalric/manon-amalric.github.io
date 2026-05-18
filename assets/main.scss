@@ -27,12 +27,12 @@ body {
 
 /* ===== Navigation ===== */
 .site-nav {
-  background-color: white;
+  background-color: #0078d4;
   border-radius: 10px;
 }
 
 .site-nav .page-link {
-  color: #111827 !important;
+  color: white !important;
   font-weight: 600;
 }
 
@@ -41,13 +41,13 @@ body {
 }
 
 .site-nav input:checked ~ .trigger {
-  background-color: white;
+  background-color: #0078d4;
   padding: 12px;
   border-radius: 10px;
 }
 
 .site-nav input:checked ~ .trigger .page-link {
-  color: #111827 !important;
+  color: white !important;
   display: block;
   padding: 8px 0;
 }
